@@ -1,0 +1,138 @@
+{
+    "12151": {
+        "userid": 12151,
+        "username": "Program",
+        "password": "Programming!",
+        "pin": "1234",
+        "stamina": 65,
+        "xp": 160,
+        "rank": "SILVER",
+        "fame": 2,
+        "inventory": {
+            "bread": 3,
+            "cheese": 8,
+            "sandwitch": 10,
+            "juice": 10
+        },
+        "skills": {
+            "hunting": 25,
+            "cooking": 10,
+            "herbology": 3
+        },
+        "accepted": [],
+        "completed": [
+            {
+                "time": "2025-11-30 18:43:44",
+                "questid": "Q102",
+                "result": "Success",
+                "reward": "XP: 80, Fame: 2, Loot: {'sandwitch': 5, 'juice': 5}"
+            }
+        ],
+        "history": [
+            {
+                "action": "Accept",
+                "time": "2025-11-30 18:43:32",
+                "questid": "Q102",
+                "title": "Making sandwitch",
+                "difficulty": "Easy"
+            },
+            {
+                "action": "Submit",
+                "time": "2025-11-30 18:43:44",
+                "questid": "Q102",
+                "result": "Success",
+                "reward": "XP: 80, Fame: 2, Loot: {'sandwitch': 5, 'juice': 5}"
+            },
+            {
+                "action": "Train",
+                "time": "2025-11-30 18:44:01",
+                "skill": "herbology",
+                "minutes": "30",
+                "skill_gain": {
+                    "herbology": 3
+                }
+            }
+        ]
+    },
+    "additional_option": {},
+    "27559": {
+        "userid": 27559,
+        "username": "Ne",
+        "password": "Newpassword!",
+        "pin": "0000",
+        "stamina": 85,
+        "xp": 80,
+        "rank": "BRONZE",
+        "fame": 2,
+        "inventory": {
+            "potion": 2
+        },
+        "skills": {
+            "hunting": 12,
+            "herbology": 10
+        },
+        "accepted": [
+            {
+                "time": "2025-11-30 18:29:59",
+                "questid": "Q101",
+                "title": "Herb Gathering",
+                "difficulty": "Easy"
+            }
+        ],
+        "completed": [
+            {
+                "time": "2025-11-30 18:27:37",
+                "questid": "Q101",
+                "result": "Success",
+                "reward": "XP: 80, Fame: 2, Loot: {'herb': 5, 'potion': 2}"
+            }
+        ],
+        "history": [
+            {
+                "action": "Train",
+                "time": "2025-11-30 18:21:26",
+                "skill": "herbology",
+                "minutes": "100",
+                "skill_gain": {
+                    "herbology": 10
+                }
+            },
+            {
+                "action": "Accept",
+                "time": "2025-11-30 18:22:10",
+                "questid": "Q101",
+                "title": "Herb Gathering",
+                "difficulty": "Easy"
+            },
+            {
+                "action": "Submit",
+                "time": "2025-11-30 18:25:23",
+                "questid": "Q201",
+                "result": "Fail",
+                "reward": ""
+            },
+            {
+                "action": "Submit",
+                "time": "2025-11-30 18:27:37",
+                "questid": "Q101",
+                "result": "Success",
+                "reward": "XP: 80, Fame: 2, Loot: {'herb': 5, 'potion': 2}"
+            },
+            {
+                "action": "Accept",
+                "time": "2025-11-30 18:29:59",
+                "questid": "Q101",
+                "title": "Herb Gathering",
+                "difficulty": "Easy"
+            },
+            {
+                "action": "Submit",
+                "time": "2025-11-30 18:30:07",
+                "questid": "Q101",
+                "result": "Fail",
+                "reward": ""
+            }
+        ],
+        "additional_option": {}
+    }
+}

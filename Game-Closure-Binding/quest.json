@@ -1,0 +1,125 @@
+{
+    "Q101": {
+        "questid": "Q101",
+        "title": "Herb Gathering",
+        "difficulty": "Easy",
+        "required": {
+            "herbology": 5
+        },
+        "due": "2025-12-01",
+        "rewards": {
+            "xp": 80,
+            "fame": 2,
+            "loots": {
+                "herb": 5,
+                "potion": 2
+            }
+        },
+        "proof": {
+            "herb": 2
+        }
+    },
+    "Q201": {
+        "questid": "Q201",
+        "title": "Hunting lion",
+        "difficulty": "Medium",
+        "required": {
+            "hunting": 10
+        },
+        "due": "2025-11-29",
+        "rewards": {
+            "xp": 150,
+            "fame": 5,
+            "loots": {
+                "lion": 1
+            }
+        },
+        "proof": {
+            "teeth": 1,
+            "ear": 1
+        }
+    },
+    "Q301": {
+        "questid": "Q301",
+        "title": "Finding dragon",
+        "difficulty": "Hard",
+        "required": {
+            "hunting": 20,
+            "swimming": 10
+        },
+        "due": "2025-12-30",
+        "rewards": {
+            "xp": 250,
+            "fame": 10,
+            "loots": {
+                "dragon": 1,
+                "treasure": 10
+            }
+        },
+        "proof": {
+            "teeth": 1,
+            "wings": 1
+        }
+    },
+    "Q102": {
+        "questid": "Q102",
+        "title": "Making sandwitch",
+        "difficulty": "Easy",
+        "required": {
+            "cooking": 5
+        },
+        "due": "2025-12-15",
+        "rewards": {
+            "xp": 80,
+            "fame": 2,
+            "loots": {
+                "sandwitch": 5,
+                "juice": 5
+            }
+        },
+        "proof": {
+            "bread": 1,
+            "cheese": 1
+        }
+    },
+    "Q202": {
+        "questid": "Q202",
+        "title": "Fishing whale",
+        "difficulty": "Medium",
+        "required": {
+            "fishing": 10
+        },
+        "due": "2025-01-01",
+        "rewards": {
+            "xp": 150,
+            "fame": 5,
+            "loots": {
+                "whale": 1
+            }
+        },
+        "proof": {
+            "gill": 1
+        }
+    },
+    "Q302": {
+        "questid": "Q302",
+        "title": "Finding treasure chest under the sea",
+        "difficulty": "Hard",
+        "required": {
+            "swimming": 25,
+            "hunting": 10
+        },
+        "due": "2025-12-20",
+        "rewards": {
+            "xp": 250,
+            "fame": 10,
+            "loots": {
+                "gill": 5,
+                "treasure": 10
+            }
+        },
+        "proof": {
+            "diamond": 1
+        }
+    }
+}
