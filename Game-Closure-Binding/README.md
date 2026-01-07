@@ -1,8 +1,10 @@
-# Parameter Binding, Closure, User-defined Overloaded Operators
+# Key Implementation Concepts
 
 **1. Parameter Binding**
 
-- Positional, Key-word only
+- **Positional & Keyword Arguments:** Basic user info (`username`, `password`).
+- **Keyword-Only Arguments (`*`):** Enforces explicit naming for sensitive data like `pin` to prevent input errors.
+- **Variable Keyword Arguments (`**kwargs`):** Allows capturing additional, optional user details without changing the function signature.
 
 ```python
 def register(username, password, *, pin, **kwargs):
@@ -11,6 +13,9 @@ def register(username, password, *, pin, **kwargs):
 ```
 
 **2. Closure**
+
+- The training_policy function retains the current_divider state even after execution finishes.
+- Uses the nonlocal keyword to modify the enclosed variable. As the player trains more, current_divider increases, making it harder to level up
 
 ```python
 def training_policy(divider):
@@ -32,6 +37,17 @@ TRAINING_POLICIES = {
 ```
 
 **3. User-defined Overloaded Operators**
+
+Customizes standard Python operators (+, -, >=) to handle game objects intuitively.
+
+- **XP Class (Experience System)**
+  - __add__: Allows syntax like current_xp + 100 to increase experience points directly.
+  - __ge__: Enables direct comparison (xp >= 1000) to check for level-up eligibility.
+
+- **Loot Class (Inventory System)**
+  - __add__: Merges two dictionaries of items. If an item exists, counts are summed; if not, it's added.
+  - __sub__: It safely subtracts item counts and raises a ValueError if insufficient items are present.
+  - Auto-Cleanup: Automatically deletes keys from the dictionary when the item count reaches 0.
 
 ```python
 class XP:
