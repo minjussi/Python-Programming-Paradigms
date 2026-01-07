@@ -8,8 +8,7 @@ This repository contains assignment codes implemented in Python based on the con
 > **Key Concepts:** Parameter Binding, Closure, User-defined Overloaded Operators
 
 This project implements a text-based RPG game system to demonstrate advanced function handling and operator customization in Python.
-* **Parameter Binding & Closure:** utilized to maintain the state of character stats and inventory securely within function scopes, preventing unwanted global access.
-* **Operator Overloading:** Custom behaviors for operators (e.g., `+`, `-`) are defined to handle interactions intuitively, such as equipping items or battling monsters directly through syntax like `hero + sword`.
+* *(For more details, please check the [README](./Game-Closure-Binding/README.md).)*
 
 ## 2. Parse Tree & Expression Evaluator
 > **Key Concepts:** Recursion, Tree Data Structure, Parsing
@@ -23,8 +22,8 @@ This assignment focuses on implementing a Parse Tree to evaluate mathematical ex
 > **Key Concepts:** OOP (Object-Oriented Programming), Encapsulation, Polymorphism
 
 A receipt generation system designed to practice the core principles of the Object-Oriented Paradigm.
-* **Encapsulation:** Sensitive data (like pricing logic or tax rates) is protected using private attributes (e.g., `__variable`), accessible only through specific methods.
-* **Polymorphism & Constructor:** The system uses `self` and `__init__` to instantiate different types of products. Polymorphism ensures that different items (e.g., tax-free vs. taxable goods) calculate their final prices differently while sharing a common interface for printing.
+* **Encapsulation:** Data is protected using private attributes (e.g., `__variable`), accessible only through specific methods.
+* **Polymorphism & Constructor:** The system uses `self` and `__init__` to instantiate different types of products. Polymorphism ensures that different items calculate their final prices differently while sharing a common interface for printing.
 
 ## 4. LISP Interpreter in Python
 > **Key Concepts:** Functional Programming, List Processing, Recursion
